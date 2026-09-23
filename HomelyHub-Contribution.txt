@@ -1,0 +1,42 @@
+HOMELYHUB – ACCOMMODATION FORM VALIDATION
+
+Project: HomelyHub
+Contribution: Client-Side Validation for Accommodation Listing Form
+
+Overview:
+Implemented client-side validation for the accommodation listing form to prevent incomplete or invalid accommodation details from being submitted.
+
+Validations implemented:
+
+1. Property name
+   - Property name is required.
+
+2. Property type
+   - A property type must be selected.
+
+3. Room type
+   - A room type must be selected.
+
+4. Address
+   - Area, city, state and pincode are required.
+
+5. Images
+   - At least 6 images are required.
+
+6. Description
+   - Property description is required.
+
+7. Check-in and check-out
+   - Both check-in and check-out times are required.
+
+8. Number of guests
+   - Guest count must be at least 1.
+
+9. Price
+   - Property price must be greater than 0.
+
+10. API data preparation
+    - Guest count and price are converted to numbers before submission.
+
+Purpose:
+To improve frontend data validation and prevent incomplete or invalid accommodation information from being submitted to the backend.
